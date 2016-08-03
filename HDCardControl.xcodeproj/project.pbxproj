@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3C8DBD51CBB9E44000709ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C8DBD41CBB9E44000709ED /* main.m */; };
+		D3C8DBD81CBB9E44000709ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C8DBD71CBB9E44000709ED /* AppDelegate.m */; };
+		D3C8DBDB1CBB9E44000709ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C8DBDA1CBB9E44000709ED /* ViewController.m */; };
+		D3C8DBDE1CBB9E44000709ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C8DBDC1CBB9E44000709ED /* Main.storyboard */; };
+		D3C8DBE01CBB9E44000709ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C8DBDF1CBB9E44000709ED /* Assets.xcassets */; };
+		D3C8DBE31CBB9E44000709ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C8DBE11CBB9E44000709ED /* LaunchScreen.storyboard */; };
+		D3C8DBF41CBBA01B000709ED /* AllHDCardsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C8DBF31CBBA01B000709ED /* AllHDCardsView.m */; };
+		D3C8DBF71CBBAF0B000709ED /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C8DBF61CBBAF0B000709ED /* UIViewExt.m */; };
+		D3C8DBF91CBBB4CB000709ED /* image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C8DBF81CBBB4CB000709ED /* image.xcassets */; };
+		D3F46F951CBE286B00AB98F2 /* AllHDCardsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3F46F941CBE286B00AB98F2 /* AllHDCardsView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3C8DBD01CBB9E44000709ED /* HDCardControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDCardControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C8DBD41CBB9E44000709ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3C8DBD61CBB9E44000709ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3C8DBD71CBB9E44000709ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3C8DBD91CBB9E44000709ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3C8DBDA1CBB9E44000709ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3C8DBDD1CBB9E44000709ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3C8DBDF1CBB9E44000709ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3C8DBE21CBB9E44000709ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3C8DBE41CBB9E44000709ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C8DBF21CBBA01B000709ED /* AllHDCardsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllHDCardsView.h; sourceTree = "<group>"; };
+		D3C8DBF31CBBA01B000709ED /* AllHDCardsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllHDCardsView.m; sourceTree = "<group>"; };
+		D3C8DBF51CBBAF0B000709ED /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		D3C8DBF61CBBAF0B000709ED /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		D3C8DBF81CBBB4CB000709ED /* image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = image.xcassets; sourceTree = "<group>"; };
+		D3F46F941CBE286B00AB98F2 /* AllHDCardsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllHDCardsView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3C8DBCD1CBB9E44000709ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3C8DBC71CBB9E44000709ED = {
+			isa = PBXGroup;
+			children = (
+				D3C8DBD21CBB9E44000709ED /* HDCardControl */,
+				D3C8DBD11CBB9E44000709ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3C8DBD11CBB9E44000709ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3C8DBD01CBB9E44000709ED /* HDCardControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3C8DBD21CBB9E44000709ED /* HDCardControl */ = {
+			isa = PBXGroup;
+			children = (
+				D3C8DBD61CBB9E44000709ED /* AppDelegate.h */,
+				D3C8DBD71CBB9E44000709ED /* AppDelegate.m */,
+				D3C8DBD91CBB9E44000709ED /* ViewController.h */,
+				D3C8DBDA1CBB9E44000709ED /* ViewController.m */,
+				D3C8DBF21CBBA01B000709ED /* AllHDCardsView.h */,
+				D3C8DBF31CBBA01B000709ED /* AllHDCardsView.m */,
+				D3F46F941CBE286B00AB98F2 /* AllHDCardsView.xib */,
+				D3C8DBF51CBBAF0B000709ED /* UIViewExt.h */,
+				D3C8DBF61CBBAF0B000709ED /* UIViewExt.m */,
+				D3C8DBDC1CBB9E44000709ED /* Main.storyboard */,
+				D3C8DBDF1CBB9E44000709ED /* Assets.xcassets */,
+				D3C8DBF81CBBB4CB000709ED /* image.xcassets */,
+				D3C8DBE11CBB9E44000709ED /* LaunchScreen.storyboard */,
+				D3C8DBE41CBB9E44000709ED /* Info.plist */,
+				D3C8DBD31CBB9E44000709ED /* Supporting Files */,
+			);
+			path = HDCardControl;
+			sourceTree = "<group>";
+		};
+		D3C8DBD31CBB9E44000709ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3C8DBD41CBB9E44000709ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3C8DBCF1CBB9E44000709ED /* HDCardControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C8DBE71CBB9E44000709ED /* Build configuration list for PBXNativeTarget "HDCardControl" */;
+			buildPhases = (
+				D3C8DBCC1CBB9E44000709ED /* Sources */,
+				D3C8DBCD1CBB9E44000709ED /* Frameworks */,
+				D3C8DBCE1CBB9E44000709ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HDCardControl;
+			productName = HDCardControl;
+			productReference = D3C8DBD01CBB9E44000709ED /* HDCardControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3C8DBC81CBB9E44000709ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "戚永超";
+				TargetAttributes = {
+					D3C8DBCF1CBB9E44000709ED = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D3C8DBCB1CBB9E44000709ED /* Build configuration list for PBXProject "HDCardControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3C8DBC71CBB9E44000709ED;
+			productRefGroup = D3C8DBD11CBB9E44000709ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3C8DBCF1CBB9E44000709ED /* HDCardControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3C8DBCE1CBB9E44000709ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C8DBE31CBB9E44000709ED /* LaunchScreen.storyboard in Resources */,
+				D3C8DBF91CBBB4CB000709ED /* image.xcassets in Resources */,
+				D3F46F951CBE286B00AB98F2 /* AllHDCardsView.xib in Resources */,
+				D3C8DBE01CBB9E44000709ED /* Assets.xcassets in Resources */,
+				D3C8DBDE1CBB9E44000709ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3C8DBCC1CBB9E44000709ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C8DBF41CBBA01B000709ED /* AllHDCardsView.m in Sources */,
+				D3C8DBDB1CBB9E44000709ED /* ViewController.m in Sources */,
+				D3C8DBD81CBB9E44000709ED /* AppDelegate.m in Sources */,
+				D3C8DBF71CBBAF0B000709ED /* UIViewExt.m in Sources */,
+				D3C8DBD51CBB9E44000709ED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3C8DBDC1CBB9E44000709ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C8DBDD1CBB9E44000709ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3C8DBE11CBB9E44000709ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C8DBE21CBB9E44000709ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3C8DBE51CBB9E44000709ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3C8DBE61CBB9E44000709ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3C8DBE81CBB9E44000709ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HDCardControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haodai.HDCardControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3C8DBE91CBB9E44000709ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HDCardControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haodai.HDCardControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3C8DBCB1CBB9E44000709ED /* Build configuration list for PBXProject "HDCardControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C8DBE51CBB9E44000709ED /* Debug */,
+				D3C8DBE61CBB9E44000709ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C8DBE71CBB9E44000709ED /* Build configuration list for PBXNativeTarget "HDCardControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C8DBE81CBB9E44000709ED /* Debug */,
+				D3C8DBE91CBB9E44000709ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3C8DBC81CBB9E44000709ED /* Project object */;
+}
